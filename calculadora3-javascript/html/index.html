@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3ª Calculadora</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+
+</head>
+<body>
+    
+    <div class="title">
+        <h1>Calculadora Básica</h1>
+    </div>
+
+    <div class="formulario">
+        <form>
+            <label for="primeiro">Primeiro Número:</label>
+            <input class="caixa" type="number" id="primeiro"><br>
+            <label for="segundo">Segundo Número:</label>
+            <input class="caixa" type="number" id="segundo"><br><br>
+        </div>
+
+        <div class="botoes">
+            <input class="input" type="button" value="+" onclick="adicao()">
+            <input class="input" type="button" value="-" onclick="subtracao()">
+            <input class="input" type="button" value="x" onclick="multiplicacao()">
+            <input class="input" type="button" value="÷" onclick="divisao()">
+            <input class="input" type="button" value="Limpar" onclick="limparForm()">
+        </div>
+
+        </form>
+    
+
+    <div class="resultado">
+        <p id="resultado"></p>
+    </div>
+
+    <!--JS-->
+    <script src="../javascript/script.js"></script>
+
+</body>
+</html>
+

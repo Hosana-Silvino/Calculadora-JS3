@@ -1,0 +1,74 @@
+body{
+    background-image: linear-gradient(to right, rgb(121, 173, 104), rgb(73, 198, 115), rgb(50, 151, 136), steelblue, rgb(88, 82, 134));
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.formulario{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: italic;
+    }
+
+#primeiro,#segundo{
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    border: none;
+    outline: 0;
+}
+
+.input{
+    border-radius: 5px;
+    border-color: white;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    margin: 0 5px;
+    width: 75px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.input:hover{
+ color: white;
+ background-image: linear-gradient(to right, rgb(121, 173, 104), rgb(73, 198, 115), rgb(50, 151, 136), steelblue, rgb(88, 82, 134));
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+label{
+    font-size: 25px;
+    color: white solid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+#resultado{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 35px;
+    font-family: monospace;
+}
